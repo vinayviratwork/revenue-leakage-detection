@@ -234,8 +234,6 @@ Full analysis is in `outputs/evaluation_report.md`.
 
 ## About This Project
 
-Built as a portfolio project to demonstrate end-to-end data-engineering and analytics skills: data modelling, SQL query design, Python pipeline architecture, statistical anomaly detection, evaluation methodology, and dashboard development.
-
-Problem framing, rule design, scoring logic, and analysis decisions are my own. Built with AI coding assistance (Kiro IDE).
+Built as a portfolio project covering data modelling, SQL query design, Python pipeline architecture, statistical anomaly detection, evaluation methodology, and dashboard development.
 
 *Data is entirely synthetic. No real company data was used.*
