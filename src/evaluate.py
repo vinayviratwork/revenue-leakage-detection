@@ -188,7 +188,7 @@ def main():
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(build_report(metrics, overall, leakage, scored, gt), encoding="utf-8")
 
-    pd.DataFrame([{k: v for k, v in m.items() if k not in ("flag_col", "gt_type")}
+    pd.DataFrame([{k: v for k, v in m.items() if k != "flag_col"}
                   for m in metrics]).to_csv(METRICS_CSV, index=False)
 
     print(f"\n{'='*60}")
